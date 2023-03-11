@@ -1,0 +1,13 @@
+.movies {
+  position: relative;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  background: black;
+}
+
+.mragin {
+  margin-top: 50%;
+}

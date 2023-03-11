@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+.tictactoe {
+  margin: 0;
+  background-color: rgb(66, 71, 71);
+  font-family: "Fredoka", sans-serif;
+  min-height: 100vh;
+}

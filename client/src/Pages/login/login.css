@@ -1,0 +1,83 @@
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(../../../public/landingpage.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.loginTitle {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0 0 1rem 0;
+}
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.95);
+  border: solid 1px black;
+  padding: 0 2rem 2rem;
+  letter-spacing: 2px;
+}
+
+.loginForm label {
+  margin: 0.3rem 0px 0.2rem;
+}
+
+.loginForm input {
+  border: 1px solid;
+  margin: 0.5rem 0;
+}
+
+.loginForm input::placeholder {
+  letter-spacing: 2px;
+}
+.loginForm img {
+  height: 100px;
+  margin-bottom: 1rem;
+}
+.loginInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+.btnLogin {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  letter-spacing: 2px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 70px;
+}
+
+.btnLogin :disabled {
+  cursor: not-allowed;
+  background-color: rgb(255, 125, 125);
+}
+
+.btnRegister {
+  margin-top: 20px;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  padding: 10px 70px;
+  color: white;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+
+.errmsg {
+  max-width: 200px;
+  padding: 1rem 0 0 0;
+  text-transform: capitalize;
+}

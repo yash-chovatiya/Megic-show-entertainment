@@ -1,0 +1,17 @@
+.game {
+  width: 560px;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game img {
+  width: 70px;
+  height: 70px;
+}
+
+.candycrush {
+  display: flex;
+  padding: 30px;
+  background-color: rgb(66, 71, 71);
+}

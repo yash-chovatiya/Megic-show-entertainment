@@ -1,0 +1,50 @@
+.gamespage {
+  width: 100%;
+}
+
+.containergame {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 100%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.gamecard {
+  padding: 10px;
+  width: 40%;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gamecard-image {
+  width: 100%;
+  height: 300px;
+  margin: 1rem 0;
+}
+
+.gamecard-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.gametitle {
+  margin-bottom: 1rem;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.game-btn {
+  background: #e50813;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 12px 20px;
+  font-weight: 500;
+  font-size: 17px;
+  width: 10rem;
+}

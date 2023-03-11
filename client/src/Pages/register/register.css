@@ -1,0 +1,63 @@
+.register {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(../../../public/landingpage.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.registerTitle {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0 0 1rem 0;
+}
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.95);
+  border: solid 1px black;
+  padding: 0 2rem 2rem;
+  letter-spacing: 2px;
+}
+.registerForm > label {
+  margin: 10px 0px;
+}
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.registerInput::placeholder {
+  letter-spacing: 2px;
+}
+
+.registerForm img {
+  height: 100px;
+}
+.btnRegi {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.errmsg {
+  max-width: 200px;
+  padding: 1rem 0 0 0;
+  text-transform: capitalize;
+}
